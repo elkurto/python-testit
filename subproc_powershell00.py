@@ -3,13 +3,19 @@ import time
 import os
 
 """
-## sample output (on mac zsh)
-% python3 subproc08ps.py
+## sample output (on win10 powershell.exe)
+% python3 subproc_powershell00.py
 initial output ::: 
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
 
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\pyprog\subproc> echo "hello 1111"
 first command output ::: 
 hello 1111
 
+PS C:\pyprog\subproc> ls
 second command output ::: 
 bar.txt
 foo.txt
@@ -22,6 +28,7 @@ subproc04.py
 subproc05.py
 subproc08ps.py
 
+PS C:\pyprog\subproc> echo "hello 3333"
 third command output ::: 
 hello 3333
 
