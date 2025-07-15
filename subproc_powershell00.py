@@ -4,7 +4,7 @@ import os
 
 """
 ## sample output (on mac zsh)
-% python3 subproc_zsh00.py
+% python3 subproc08ps.py
 initial output ::: 
 
 first command output ::: 
@@ -63,7 +63,7 @@ cmd_on_win10 =['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass']
 cmd_on_mac   =['/bin/zsh', '-s']
 
 interactive_subprocess =subprocess.Popen(
-    cmd_on_mac,
+    cmd_on_win10, 
     stdin=subprocess.PIPE,
     stdout=subprocess.PIPE,
     stderr=subprocess.PIPE,
